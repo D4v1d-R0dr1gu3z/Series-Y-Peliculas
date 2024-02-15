@@ -536,6 +536,7 @@ footer p {
         margin-top: 10px;
     }
     header nav ul li a{
+        font-size: 10px;
         text-align: center;
     }
     header nav a{ 
@@ -656,9 +657,11 @@ footer p {
         font-size: 15px;
         margin-bottom: 0;
     }
-    #videos iframe{
-        width: 20%;
-        height: 60px;
+    #videos .columna .fila{
+        display: block;
+    }
+    #videos .columna .fila iframe{
+        width: 90%;
     }
     #musica h2{        
         font-size: 25px;
@@ -668,9 +671,11 @@ footer p {
         font-size: 15px;
         margin-bottom: 0;
     }
+    #musica .columna .fila{
+        display: block;
+    }
     #musica .columna .fila iframe{
-        width: 30%;
-        height: 100px;
+        width: 90%;
     }
     #mas-recientes h2{        
         font-size: 25px;
